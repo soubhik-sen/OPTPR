@@ -18,10 +18,10 @@ class TeamSection extends StatelessWidget {
       
       background: Stack(
         fit: StackFit.expand,
-        children: const [
+        children:  [
           // Asset background image (replace with your real image)
           SectionBGImage("assets/images/team_bg.png"),
-          DarkGreenGradient(overlay: HeadlightBeams()),
+          const DarkGreenGradient(overlay: HeadlightBeams()),
         ],
       ),
     

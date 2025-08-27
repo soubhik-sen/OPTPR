@@ -28,7 +28,7 @@ class HeroSection extends StatelessWidget {
       
       background: Stack(
         fit: StackFit.expand,
-        children: const [
+        children:  [
           // Asset background image (replace with your real image)
           SectionBGImage("assets/images/hero_bg.png"),
           DarkGreenGradient(overlay: HeadlightBeams()),
